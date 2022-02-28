@@ -1,0 +1,196 @@
+local CheatTPRRScreenGUI = Instance.new("ScreenGui")
+local HomeFrame = Instance.new("Frame")
+local FazCoins = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Tickets = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local FazCoinsFrame = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Close_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Get = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TicketsFrame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local Close_3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Get_2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+
+--Properties:
+
+CheatTPRRScreenGUI.Name = "CheatTPRRScreenGUI"
+CheatTPRRScreenGUI.Parent = game.CoreGui
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = CheatTPRRScreenGUI
+HomeFrame.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0.373589903, 0, 0.287234068, 0)
+HomeFrame.Size = UDim2.new(0, 800, 0, 500)
+HomeFrame.Active =  true
+HomeFrame.Draggable =  true
+
+FazCoins.Name = "Faz Coins"
+FazCoins.Parent = HomeFrame
+FazCoins.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FazCoins.Position = UDim2.new(0.375, 0, 0.200000003, 0)
+FazCoins.Size = UDim2.new(0, 200, 0, 100)
+FazCoins.Font = Enum.Font.SciFi
+FazCoins.Text = "Faz Coins"
+FazCoins.TextColor3 = Color3.fromRGB(0, 0, 0)
+FazCoins.TextScaled = true
+FazCoins.TextSize = 14.000
+FazCoins.TextWrapped = true
+
+UICorner.Parent = FazCoins
+
+Tickets.Name = "Tickets"
+Tickets.Parent = HomeFrame
+Tickets.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tickets.Position = UDim2.new(0.375, 0, 0.600000024, 0)
+Tickets.Size = UDim2.new(0, 200, 0, 100)
+Tickets.Font = Enum.Font.SciFi
+Tickets.Text = "Tickets"
+Tickets.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tickets.TextScaled = true
+Tickets.TextSize = 14.000
+Tickets.TextWrapped = true
+
+UICorner_2.Parent = Tickets
+
+UICorner_3.Parent = HomeFrame
+
+Close.Name = "Close"
+Close.Parent = HomeFrame
+Close.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Close.Position = UDim2.new(0.931249976, 0, 0.0199999996, 0)
+Close.Size = UDim2.new(0, 45, 0, 45)
+Close.Font = Enum.Font.SciFi
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UICorner_4.Parent = Close
+
+FazCoinsFrame.Name = "FazCoinsFrame"
+FazCoinsFrame.Parent = HomeFrame
+FazCoinsFrame.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+FazCoinsFrame.Position = UDim2.new(-0.000999987125, 0, -0.000999987125, 0)
+FazCoinsFrame.Size = UDim2.new(0, 800, 0, 500)
+FazCoinsFrame.Visible = false
+
+UICorner_5.Parent = FazCoinsFrame
+
+Close_2.Name = "Close"
+Close_2.Parent = FazCoinsFrame
+Close_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Close_2.Position = UDim2.new(0.931249976, 0, 0.0199999996, 0)
+Close_2.Size = UDim2.new(0, 45, 0, 45)
+Close_2.Font = Enum.Font.SciFi
+Close_2.Text = "X"
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.TextScaled = true
+Close_2.TextSize = 14.000
+Close_2.TextWrapped = true
+
+UICorner_6.Parent = Close_2
+
+Get.Name = "Get"
+Get.Parent = FazCoinsFrame
+Get.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Get.Position = UDim2.new(0.376249999, 0, 0.400000006, 0)
+Get.Size = UDim2.new(0, 200, 0, 100)
+Get.Font = Enum.Font.SciFi
+Get.Text = "Get"
+Get.TextColor3 = Color3.fromRGB(0, 0, 0)
+Get.TextScaled = true
+Get.TextSize = 14.000
+Get.TextWrapped = true
+
+UICorner_7.Parent = Get
+
+TicketsFrame.Name = "TicketsFrame"
+TicketsFrame.Parent = HomeFrame
+TicketsFrame.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+TicketsFrame.Position = UDim2.new(-0.000999987125, 0, -0.000999987125, 0)
+TicketsFrame.Size = UDim2.new(0, 800, 0, 500)
+TicketsFrame.Visible = false
+
+UICorner_8.Parent = TicketsFrame
+
+Close_3.Name = "Close"
+Close_3.Parent = TicketsFrame
+Close_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Close_3.Position = UDim2.new(0.931249976, 0, 0.0199999996, 0)
+Close_3.Size = UDim2.new(0, 45, 0, 45)
+Close_3.Font = Enum.Font.SciFi
+Close_3.Text = "X"
+Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.TextScaled = true
+Close_3.TextSize = 14.000
+Close_3.TextWrapped = true
+
+UICorner_9.Parent = Close_3
+
+Get_2.Name = "Get"
+Get_2.Parent = TicketsFrame
+Get_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Get_2.Position = UDim2.new(0.376249999, 0, 0.400000006, 0)
+Get_2.Size = UDim2.new(0, 200, 0, 100)
+Get_2.Font = Enum.Font.SciFi
+Get_2.Text = "Get"
+Get_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Get_2.TextScaled = true
+Get_2.TextSize = 14.000
+Get_2.TextWrapped = true
+
+UICorner_10.Parent = Get_2
+
+-- Scripts:
+
+local function KVPA_fake_script() -- FazCoins.LocalScript 
+	local script = Instance.new('LocalScript', FazCoins)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.FazCoinsFrame.Visible = true
+	end)
+end
+coroutine.wrap(KVPA_fake_script)()
+local function ROXWNV_fake_script() -- Tickets.LocalScript 
+	local script = Instance.new('LocalScript', Tickets)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.TicketsFrame.Visible = true
+	end)
+end
+coroutine.wrap(ROXWNV_fake_script)()
+local function WPQYS_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(WPQYS_fake_script)()
+local function MOVH_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(MOVH_fake_script)()
+local function BCLQFHK_fake_script() -- Close_3.LocalScript 
+	local script = Instance.new('LocalScript', Close_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(BCLQFHK_fake_script)()
